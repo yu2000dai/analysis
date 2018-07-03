@@ -4,19 +4,19 @@
 
 **問題** 理想的なサイコロを6回振った結果のデータを作り，その平均と分散，標準偏差を求めよ。
 
-**問題** サイコロの出る目Xは確率変数である。Xがxである確率P(X=x)=f(x)はxの関数である。このようなf(x)を確率分布と呼ぶ。サイコロが理想的な六面体のとき，f(x)は具体的にどうなるか。
+**問題** サイコロの出る目Xは確率変数である。Xがxである確率<img src="https://latex.codecogs.com/gif.latex?\inline&space;P(X=x)=f(x)" />はxの関数である。このような<img src="https://latex.codecogs.com/gif.latex?\inline&space;f(x)" />を確率分布と呼ぶ。サイコロが理想的な六面体のとき，<img src="https://latex.codecogs.com/gif.latex?\inline&space;f(x)" />は具体的にどうなるか。
 
-**問題** 確率変数Xの期待値E(X)は，（Xが離散的なとき）Σx xf(x)で定義される（和はXの取り得るすべてのxについて取る）。理想的な六面体のサイコロの出る目Xの期待値を求めよ。
+**問題** 確率変数Xの期待値<img src="https://latex.codecogs.com/gif.latex?\inline&space;E(X)" />は，（Xが離散的なとき）<img src="https://latex.codecogs.com/gif.latex?\inline&space;\sum&space;x&space;f(x)" />で定義される（和はXの取り得るすべてのxについて取る）。理想的な六面体のサイコロの出る目Xの期待値を求めよ。
 
-**問題** 確率変数Xの分散V(X)は，（Xが離散的なとき）Σ(x-E(X))^2 f(x)で定義される（和はXの取り得るすべてのxについて取る）。理想的な六面体のサイコロの出る目Xの分散を求めよ。
+**問題** 確率変数Xの分散<img src="https://latex.codecogs.com/gif.latex?\inline&space;V(X)" />は，（Xが離散的なとき）<img src="https://latex.codecogs.com/gif.latex?\inline&space;\sum&space;(x-E(X))^2&space;f(x)" />で定義される（和はXの取り得るすべてのxについて取る）。理想的な六面体のサイコロの出る目Xの分散を求めよ。
 
-**問題** 確率変数Xの標準偏差は，V(X)の平方根で定義される。理想的な六面体のサイコロの出る目Xの標準偏差を求めよ。
+**問題** 確率変数Xの標準偏差は，<img src="https://latex.codecogs.com/gif.latex?\inline&space;V(X)" />の平方根で定義される。理想的な六面体のサイコロの出る目Xの標準偏差を求めよ。
 
 **問題（オプショナル）** 理想的な12面体のサイコロの出る目Xの期待値と分散，標準偏差を求めよ。
 
 **問題** 当選金額が100万円，当選確率が1%のくじを100枚買った場合をシミュレートし，その平均と分散，標準偏差を求めよ。
 
-**問題** 上の問いの当選金額の期待値と分散，標準偏差を求めよ。
+**問題** 上の問の当選金額の期待値と分散，標準偏差を求めよ。
 
 **問題（オプショナル）** 1等（100万円）の当選確率が1%，2等（50万円）の当選確率が5%のくじの期待値と分散，標準偏差を求めよ。
 
@@ -31,8 +31,10 @@
 **問題** 二項分布の期待値と分散を求めよ。
 
 ## 連続型の場合
+<img src="" />
+**問題** 確率変数Xが連続値を取る場合，Xが<img src="https://latex.codecogs.com/gif.latex?\inline&space;[x,&space;x&plus;\Delta&space;x]" />に含まれる確率<img src="https://latex.codecogs.com/gif.latex?\inline&space;P(x\le&space;X&space;\le&space;x&plus;\Delta&space;x)=f(x)" />を考え，これを確率密度関数と呼ぶ。
 
-**問題** 確率変数Xが連続値を取る場合，Xがxからx+Δxの間にある確率P(x<=X<=x+Δx)=f(x)を考え，これを確率密度関数と呼ぶ。Xがx以下となる確率F(x)はf(k)を-∞からxまで積分したものであることを納得せよ。
+**問題** 上の問いで、Xがx以下となる確率<img src="https://latex.codecogs.com/gif.latex?\inline&space;F(x)" />は<img src="https://latex.codecogs.com/gif.latex?\inline&space;\int_{-\infty}^x&space;f(k)\,dk" />であることを納得せよ。
 
 **問題** 人間の身長は，正規分布になっていることが知られている。例として，平均160，標準偏差5の正規分布の確率密度関数のグラフを描け。ヒント：Excelでは，正規分布の確率密度関数は`NORM.DIST`で計算できる。
 
