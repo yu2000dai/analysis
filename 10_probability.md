@@ -30,6 +30,14 @@
 
 **問題** 二項分布の期待値と分散を求めよ。
 
+**問題** 当たる確率が0.1のガチャを10回引いて、1回も当たらない確率を求めよ。参考：http://www.wolframalpha.com/input/?i=BinomialDistribution%5B10,0.1%5D
+
+**問題** 「当たる確率が0.1のガチャを10回引く」ということを100回繰り返し、当たった回数のヒストグラムを描け。
+
+**問題（オプショナル）** 当たる確率が0.05のガチャを20回引いて、1回も当たらない確率を求めよ。
+
+**問題（オプショナル）** 「当たる確率が0.05のガチャを20回引く」ということを100回繰り返し、当たった回数のヒストグラムを描け。
+
 ## 連続型の場合
 
 **問題** 確率変数Xが連続値を取る場合，Xが<img src="https://latex.codecogs.com/gif.latex?\inline&space;[x,&space;x&plus;\Delta&space;x]" />に含まれる確率<img src="https://latex.codecogs.com/gif.latex?\inline&space;P(x\le&space;X&space;\le&space;x&plus;\Delta&space;x)=f(x)" />を考え，これを確率密度関数と呼ぶ。
