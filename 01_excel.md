@@ -16,7 +16,7 @@
 
 **問題** 複数のセル中の中央に配置する方法を述べよ。
 
-**問題** `ABS(x)`，`COS(x)`，`EXP(x)`，`INT(x)`，`LN(x)`，`LOG(x, y)`，`LOG10(x)`，`MOD(x)`，`PI()`，`SIGN(x)`，`SIN(x)`，`SQRT(x)`，`RAND()`，`ROUND(x, n)`の動作を調べよ。
+**問題** `ABS(x)`，`COS(x)`，`EXP(x)`，`INT(x)`，`LN(x)`，`LOG(x, y)`，`LOG10(x)`，`MOD(x, y)`，`PI()`，`SIGN(x)`，`SIN(x)`，`SQRT(x)`，`RAND()`，`ROUND(x, n)`の動作を調べよ。
 
 **問題** 以下の例文を，Google Sheetsの関数`GOOGLETRANSLATE()`を使って英訳し，結果をGoogle翻訳やBing翻訳と比較せよ。
 
